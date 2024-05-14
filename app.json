@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "bible",
+    "slug": "bible",
+    "scheme": "your-app-scheme",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "54e7ad12-c45e-4167-8f71-b94d7f6986eb"
+      }
+    },
+    "owner": "kozcode",
+    "plugins": ["expo-router", "expo-av"]
+  }
+}
